@@ -16,6 +16,39 @@ li{
     visibility: visible;
 }
 
+/*imges style*/
+
+.flex-container-big-images{ 
+    display: flex;
+    align-items: stretch;
+    align-content: center;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.flex-container-small-images{
+    display: flex;
+    align-items: stretch;
+    align-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#Gas_Station{
+    padding-left: 10px;
+}
+
+#Powerhous{
+    padding-right: 10px;
+}
+
+#factory_worker{
+    padding-right: 20px;
+}
+
+
+
 /*bottom menu*/
 
 .navBarbottom{
