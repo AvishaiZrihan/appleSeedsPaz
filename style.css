@@ -2,19 +2,9 @@ body{
     direction: rtl;
     font-family:Arial, Helvetica, sans-serif;
 }
-ul{
-    float: left;
-    padding: 10px;
-    margin-block-start: unset;
-    display: inline; 
-}
 
-li{
-    display: block;
-    background-color:rgb(134, 132, 133);;
-    padding: 10px; 
-    visibility: visible;
-}
+/*top menu */
+
 
 /*imges style*/
 
@@ -25,6 +15,8 @@ li{
     margin-top: 10%;
     margin-left: 10%;
     margin-right: 10%;
+    position: relative;
+    color: white;
 }
 
 .flex-container-small-images{
@@ -33,20 +25,57 @@ li{
     align-content: center;
     margin-left: 15%;
     margin-right: 15%;
+    padding: 20px;
 }
-
+.Gas_Station{
+    border-radius: 0 0 30px 0;;
+}
 #Gas_Station{
     padding-left: 10px;
 }
-
+.Powerhous{
+    border-radius: 0 0 30px 0;
+}
 #Powerhous{
     padding-right: 10px;
 }
-
+.factory_worker{
+    border-radius: 0 0 30px 0;
+}
 #factory_worker{
     padding-right: 20px;
 }
 
+#paz_discont{
+    border-style: groove;
+    border-top-right-radius: 20px;
+    padding: 20px;
+    background-color: rgb(207, 200, 200);
+}
+
+#banner_atar{
+    border-style: groove;
+    border-top-right-radius: 20px;
+    padding: 20px;
+    background-color: rgb(207, 200, 200);
+}
+
+#Untitled{
+    border-style: groove;
+    border-top-right-radius: 20px;
+    padding: 20px;
+    padding-left: 200px;
+    background-color: rgb(207, 200, 200);
+}
+.img-text {
+    position: absolute;
+    bottom: 0px;
+    font-size: 12px;
+    background-color: rgba(102, 96, 96, 0.808);
+    width: 200px;
+    padding: 5px;
+    margin: 25px;
+}
 
 
 /*bottom menu*/
@@ -54,29 +83,34 @@ li{
 .navBarbottom{
     color: white;
     background-color: rgb(134, 132, 133);
-    position: absolute;
-    margin-right: 15%;
-    margin-left: 15%;
+    position:fixed;
+    padding: 7px;
     font-size: 14px;
     bottom:0px;
+    width: 100%;
+    text-align: end;
+    box-shadow: 15px 3px 16px 8px #ccc
 }
 
 .navBarbottom >ul {
     padding-bottom: 0px;
     margin-bottom: 0px;
     padding: 0px 0px 0px 0px;
-    
-    
+    margin-block-start: unset;
+    float: left;
+    width: 80%;
+        
 }
 
 .navBarbottom >ul > li{
     float: right;
     padding: 0px;
+    display: block;
+    
     
 }
 .navBarbottom >ul > li> a{
     color: white;
-    text-align: center;
     text-decoration-line: none;
     padding: 3px;
     
