@@ -1,9 +1,83 @@
 body{
     direction: rtl;
     font-family:Arial, Helvetica, sans-serif;
+    margin: 0px;
 }
 
 /*top menu */
+.topmenu{
+    margin-left: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(131, 129, 130);
+    font-size: 14px;
+    padding: 20px; 
+    width: 100%;
+    
+}
+
+/* aboutClass*/
+/* first*/
+.aboutClass{
+    float: right;
+    color: ivory;
+    margin-left: 1%;
+}
+/* second*/
+.aboutLinks{
+    font-size: 14px;
+    display: none;
+    position: absolute;
+    color: ivory;
+    float: left;
+    
+}
+/* hover about menu*/
+.aboutClass:hover .aboutLinks{
+    display: block;
+    background-color: rgba(117, 117, 112, 0.733);
+    padding: 10px;
+}
+/* hover inside about  menu*/
+.aboutLinks > li:hover{
+    color: rgb(79, 26, 177);
+    background-color: grey;
+    width: 100%;
+    text-decoration-line: underline;
+    list-style-type: none;
+}
+
+
+
+/* first*/
+.divisionsClass{
+    float: right;
+    color: ivory;
+}
+/* second*/
+.divisionLinks{
+    font-size: 14px;
+    display: none;
+    position: absolute;
+    color: ivory;
+    
+}
+/* hover about menu*/
+.divisionsClass:hover .divisionLinks{
+    display: block;
+    background-color: rgba(117, 117, 112, 0.733);
+    padding: 10px;
+}
+/* hover inside about  menu*/
+.divisionLinks > li:hover{
+    color: rgb(79, 26, 177);
+    background-color: grey;
+    width: 100%;
+    text-decoration-line: underline;
+    list-style-type: none;
+
+}
+
+
 
 
 /*imges style*/
@@ -23,10 +97,11 @@ body{
     display: flex;
     align-items: stretch;
     align-content: center;
-    margin-left: 15%;
-    margin-right: 15%;
     padding: 20px;
+    margin-left: 20%;
+    margin-right: 8%;
 }
+
 .Gas_Station{
     border-radius: 0 0 30px 0;;
 }
@@ -63,9 +138,17 @@ body{
 #Untitled{
     border-style: groove;
     border-top-right-radius: 20px;
-    padding: 20px;
-    padding-left: 200px;
+    padding: 0px;
+    padding-left: 20px;
     background-color: rgb(207, 200, 200);
+    
+}
+.Untitled{
+    display: block;
+    margin-top: 10px;
+    margin-left: 10px;
+     margin-right:217px;
+  
 }
 .img-text {
     position: absolute;
