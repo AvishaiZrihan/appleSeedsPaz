@@ -6,21 +6,28 @@ body{
 
 /*top menu */
 .topmenu{
-    margin-left: 50px;
     font-family:Arial, Helvetica, sans-serif;
     background-color: rgb(131, 129, 130);
     font-size: 14px;
-    padding: 20px; 
+    padding: 20px;
+    padding-top:55px;
     width: 100%;
+    margin-left: 20px;
+    box-shadow: 0px 22px 13px 8px #ccc;
     
 }
 
 /* aboutClass*/
 /* first*/
+
+
 .aboutClass{
     float: right;
     color: ivory;
     margin-left: 1%;
+    font-weight: bold; 
+    margin-top: -12px;
+    
 }
 /* second*/
 .aboutLinks{
@@ -28,8 +35,7 @@ body{
     display: none;
     position: absolute;
     color: ivory;
-    float: left;
-    
+    float: left;   
 }
 /* hover about menu*/
 .aboutClass:hover .aboutLinks{
@@ -39,46 +45,35 @@ body{
 }
 /* hover inside about  menu*/
 .aboutLinks > li:hover{
-    color: rgb(79, 26, 177);
+    color: rgb(57, 19, 224);
     background-color: grey;
     width: 100%;
     text-decoration-line: underline;
     list-style-type: none;
-}
-
-
-
-/* first*/
-.divisionsClass{
-    float: right;
-    color: ivory;
-}
-/* second*/
-.divisionLinks{
-    font-size: 14px;
-    display: none;
-    position: absolute;
-    color: ivory;
     
 }
-/* hover about menu*/
-.divisionsClass:hover .divisionLinks{
-    display: block;
-    background-color: rgba(117, 117, 112, 0.733);
-    padding: 10px;
+/*logo*/
+#menu_home_blue{
+    float: right;
+    padding-top: 3px;
+    margin-left: 11px;
 }
-/* hover inside about  menu*/
-.divisionLinks > li:hover{
-    color: rgb(79, 26, 177);
-    background-color: grey;
-    width: 100%;
-    text-decoration-line: underline;
-    list-style-type: none;
-
+#paz_logo{
+    float: right;
+    margin-left: 0px;
+    margin-right: 296px;
+    margin-top: -35px;
 }
+/*top menu logo |*/
 
-
-
+.b{
+    color: rgb(187, 180, 180);
+    margin-left: 18px;
+}
+.c{
+    color: rgb(187, 180, 180);
+    margin-right: 18px;
+}
 
 /*imges style*/
 
@@ -86,9 +81,9 @@ body{
     display: flex;
     align-items: stretch;
     align-content: center;
-    margin-top: 10%;
+    margin-top: 6%;
     margin-left: 10%;
-    margin-right: 10%;
+    margin-right: 20%;
     position: relative;
     color: white;
 }
@@ -99,7 +94,8 @@ body{
     align-content: center;
     padding: 20px;
     margin-left: 20%;
-    margin-right: 8%;
+    margin-right: 19%;
+    margin-bottom: 6%
 }
 
 .Gas_Station{
@@ -204,7 +200,40 @@ body{
     color: rgb(68, 68, 209);
 }
 
+/*next page */
 
+.h5{
+    color: rgb(20, 17, 202)
+}
 
+.label-flex-container{
+    display: flex;
+    align-items: stretch;
+    align-content: center;
+    padding: 20px;
+    margin-left: 20%;
+    margin-right: 8%;
+}
 
+#pazContact{
+    border-style: groove;
+    border-top-right-radius: 20px;
+    padding: 20px;
+    background-color: rgb(207, 200, 200);
+}
 
+#ContactDetails{
+    border-style: groove;
+    border-top-right-radius: 20px;
+    padding: 20px;
+    background-color: rgb(207, 200, 200);
+}
+
+#MoreContactDetails{
+    border-style: groove;
+    border-top-right-radius: 20px;
+    padding: 0px;
+    padding-left: 20px;
+    background-color: rgb(207, 200, 200);
+    
+}
