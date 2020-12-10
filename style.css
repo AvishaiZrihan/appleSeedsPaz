@@ -82,7 +82,7 @@ body{
 .flex-container-big-images{ 
     display: flex;
     align-items: stretch;
-    margin-top: 6%;
+    margin-top: 9%;
     margin-left: 10%;
     margin-right: 20%;
     position: relative;
@@ -105,6 +105,14 @@ color: ivory;
 
 .small-read-more:hover{
     color: mediumblue;
+}
+.e-read-more{
+    float: right;
+    color: ivory;
+    font-size: 14px;
+    color: rgb(61, 59, 59);
+    margin-top:10px;
+    margin-top: 10px;
 }
 
 
